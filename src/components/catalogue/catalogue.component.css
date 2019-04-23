@@ -1,0 +1,13 @@
+.w3-container {
+    margin: 5px 0 5px 0;
+}
+.w3-card-4 {
+    margin-left: 170px;
+}
+
+@media screen and (max-width: 410px) {
+    
+    .w3-card-4 {
+        margin: 2px 0 2px 0;
+    }
+  }

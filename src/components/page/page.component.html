@@ -1,0 +1,18 @@
+<div class="w3-container w3-center">
+    <div class="w3-card-4" style="width:100%">
+        <ul>
+            <li *ngFor="let writer of genres">
+        <header class="w3-container w3-light-green">
+          <h3><img [src]="writer.img" alt="Avatar" class="w3-circle w3-center" style="width:50px"></h3>
+        </header>
+        <div class="w3-container">
+          <h2>{{ writer.name }}</h2>
+            <hr>
+          <p><a href="#">{{ writer.genre }}</a></p>  
+        </div>
+        <button class="w3-button w3-block w3-brown">Subscribe &raquo;</button>
+      </li>
+    </ul>
+        
+      </div>
+</div>

@@ -1,0 +1,11 @@
+.w3-section {
+    margin-left: 275px;
+    text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+    
+    .w3-section {
+        margin-left: 5px;
+    }
+  }

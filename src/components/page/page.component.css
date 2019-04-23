@@ -1,0 +1,21 @@
+.w3-container {
+    margin: 5px 0 5px 0;
+}
+.w3-card-4 {
+    margin-left: 170px;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 410px) {
+
+    .w3-container {
+        width: 100%;
+    }
+    
+    .w3-card-4 {
+        margin: 1px 0 1px 0;
+    }
+  }
