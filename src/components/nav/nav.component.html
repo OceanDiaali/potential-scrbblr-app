@@ -1,7 +1,7 @@
 <div class="w3-sidebar w3-collapse w3-white w3-animate-left w3-large" style="z-index:3;width:300px;" id="mySidebar">
 
-  <div class="w3-bar w3-brown w3-center">
-    <a class="w3-bar-item w3-button" style="width:33.33%" [routerLink]="['/catalogue-summary']" (click)="openNav('nav01')">
+  <div class="w3-bar w3-light-green w3-center">
+    <a class="w3-bar-item w3-button" style="width:33.33%" [routerLink]="['/catalogue-summary']" routerLinkActive="router-link-active"  (click)="openNav('nav01')">
     <i class="fa fa-bars w3-xlarge"></i></a>
     <a class="w3-bar-item w3-button" style="width:33.33%" [routerLink]="['/catalogue']" href="javascript:void(0)" (click)="openNav('nav03')">
     <i class="fa fa-file w3-xlarge"></i></a>
@@ -13,10 +13,22 @@
   
   <div id="nav01" class="w3-bar-block">
     <a class="w3-button w3-hover-teal w3-hide-large w3-large w3-right" href="javascript:void(0)" (click)="w3_close()">×</a>
-    <a class="w3-bar-item w3-button w3-border-bottom w3-large w3-center w3-brown" href="#"><h1>Scrbblr</h1></a>
+    <a class="w3-bar-item w3-button w3-border-bottom w3-large w3-center w3-light-brown" href="#"><img src="./../../assets/images/scrbblr-log.png" alt="logo"></a>
     <div class="w3-container w3-center">
-    <h3 class="w3-brown">About</h3>
+    <h3 class="w3-light-green w3-round">About</h3>
     <p>Scrbblr is where overlooked, and undervalued "wordsmiths" find a home.</p>
+    <h4 class="w3-light-green w3-round">How Scrbblr works</h4>
+    <hr>
+    <p><i class="fa fa-user w3-xlarge"></i> Create your account</p>
+    <i class="fa fa-sort-down w3-xlarge"></i>
+    <p><i class="fa fa-file-text w3-xlarge"></i> Write your words</p>
+    <i class="fa fa-sort-down w3-xlarge"></i>
+    <p><i class="fa fa-save w3-xlarge"></i> Save your creation</p>
+    <i class="fa fa-sort-down w3-xlarge"></i>
+    <p><i class="fa fa-cloud-upload w3-xlarge"></i> Upload to Scrbblr</p>
+    <i class="fa fa-sort-down w3-xlarge"></i>
+    <p><i class="fa fa-check-square w3-xlarge"></i> Approve readers' subscriptions</p>
+    <hr>
     <p>
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
@@ -28,9 +40,7 @@
   
   <div id="nav02">
       <form class="w3-container w3-card-4 w3-light-grey">
-          <h2 class="w3-brown">Accounts</h2>
-          <p>Sign in to your account</p>
-        
+          <h3 class="w3-light-green w3-round">Sign In</h3>
           <p>
           <input class="w3-input w3-border w3-round" name="first" type="text" placeholder="you@email-address.com">
         </p>
@@ -39,22 +49,22 @@
           <input class="w3-input w3-border w3-round-large" name="last" type="text" placeholder="your secret password">
           <a href="#">forgot password?</a>
         </p>
-          <h5>New writer? <a href="#">Create Account</a></h5>
+          New writer? <a href="#">Create Account</a>
         </form>
   </div>
   
   <div id="nav03">
     <div class="w3-container w3-border-bottom">
-      <h1 class="w3-brown w3-center">Catalogues</h1>
+      <h3 class="w3-light-green w3-center w3-round">Catalogues</h3>
     </div>
     <ul class="w3-ul w3-large w3-light-grey">  
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" [routerLink]="['/page']" routerLinkActive="router-link-active" >Horror</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Mystery</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Shorts</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Erotica</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Biography</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Romance</a></li>
-     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-brown" href="">Science-fiction</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" [routerLink]="['/page']" routerLinkActive="router-link-active" >Horror</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Mystery</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Shorts</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Erotica</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Biography</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Romance</a></li>
+     <li class="w3-padding-16"><a class="w3-bar-item w3-button w3-hover-light-green w3-round" href="">Science-fiction</a></li>
     </ul>
   </div>
   <app-footer></app-footer>
@@ -70,6 +80,6 @@
   </div>
   
   <!--Header tags -->
-  <header class="w3-container w3-padding-64 w3-center">
-    <h1 class="w3-xlarge w3-padding-16"><img src="./../../assets/images/scrbblr-log.png" alt="logo"/></h1>
+  <header class="w3-container w3-padding-8 w3-center">
+    <img src="./../../assets/images/quote_picasso.jpg" alt="avatar" id="ava"/>
   </header>

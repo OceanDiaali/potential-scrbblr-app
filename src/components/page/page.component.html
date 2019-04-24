@@ -2,7 +2,7 @@
     <div class="w3-card-4" style="width:100%">
         <ul>
             <li *ngFor="let writer of genres">
-        <header class="w3-container w3-light-green">
+        <header class="w3-container">
           <h3><img [src]="writer.img" alt="Avatar" class="w3-circle w3-center" style="width:50px"></h3>
         </header>
         <div class="w3-container">
@@ -10,7 +10,7 @@
             <hr>
           <p><a href="#">{{ writer.genre }}</a></p>  
         </div>
-        <button class="w3-button w3-block w3-brown">Subscribe &raquo;</button>
+        <button class="w3-button w3-block w3-light-green w3-round">Subscribe &raquo;</button>
       </li>
     </ul>
         
