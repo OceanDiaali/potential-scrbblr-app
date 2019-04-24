@@ -7,12 +7,14 @@ import { CatalogueSummaryComponent } from 'src/components/catalogue-summary/cata
 import { CatalogueComponent } from 'src/components/catalogue/catalogue.component';
 import { PageComponent } from './../components/page/page.component';
 
+
 import { PageNotFoundComponent } from './../components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path: '', component: CatalogueSummaryComponent},
   { path: 'catalogue-summary', component: CatalogueSummaryComponent },
   { path: 'catalogue',      component: CatalogueComponent },
+
   { path: 'page', component: PageComponent},
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -20,6 +22,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     CatalogueSummaryComponent,
+
     CatalogueComponent,
     PageComponent,
     PageNotFoundComponent

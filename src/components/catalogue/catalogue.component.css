@@ -20,6 +20,7 @@ hr {
 @media screen and (max-width: 600px) {
     .w3-button {
         width: 250px;
+        margin-bottom: 5px;
     }
 
     .w3-container {
@@ -27,6 +28,6 @@ hr {
     }
 
     .w3-card-4 {
-        margin: 1px 0 1px 0;
+        margin: 1px 0 2px 0;
     }
-  }
+  } 

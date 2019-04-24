@@ -37,7 +37,14 @@
   </div>
   
   <div id="nav02">
-      <form class="w3-container w3-card-4 w3-light-grey">
+    <div class="w3-container">
+    <img src="./../../assets/images/scrbblr-log.png" alt="logo"/>
+    <h4>Signin with Google</h4>
+    <div *ngIf="!googleUser" class="g-signin2" data-onsuccess="onSignIn" id="g-logo"></div>
+
+    <a *ngIf="" (click)="signOut();">Sign out</a>
+
+     <!--- <form class="w3-container w3-card-4 w3-light-grey">
           <h3 class="w3-light-green w3-round">Sign In</h3>
           <p>
           <input class="w3-input w3-border w3-round" name="first" type="text" placeholder="you@email-address.com">
@@ -48,7 +55,8 @@
           <a href="#">forgot password?</a>
         </p>
           New writer? <a href="#">Create Account</a>
-        </form>
+        </form> -->
+    </div>
   </div>
   
   <div id="nav03">

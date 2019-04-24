@@ -3,11 +3,6 @@
     text-align: center;
 }
 
-.notranslate img {
-    width: 150px;
-    height: 150px;
-}
-
 @media screen and (max-width: 390px) {
     
     .w3-section {

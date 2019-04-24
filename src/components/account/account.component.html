@@ -1,0 +1,5 @@
+<div *ngIf="!user" id="okta-login-container"></div>
+<div *ngIf="user" class="w3-container w3-section">
+  Welcome, {{user}}
+  <button (click)="logout()">Logout</button>
+</div>
