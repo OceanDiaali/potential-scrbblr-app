@@ -17,6 +17,10 @@ hr {
 
 @media screen and (max-width: 410px) {
 
+    .w3-button {
+        width: 250px;
+    }
+
     .w3-container {
         width: 100%;
     }

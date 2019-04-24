@@ -5,15 +5,28 @@
     margin-left: 170px;
 }
 
+li {
+    list-style-type: none;
+}
+
 hr {
     width: 250px;
     margin: 0 auto;
     border-color: black;  
 }
 
-@media screen and (max-width: 410px) {
-    
+
+
+@media screen and (max-width: 600px) {
+    .w3-button {
+        width: 250px;
+    }
+
+    .w3-container {
+        width: 100%;
+    }
+
     .w3-card-4 {
-        margin: 2px 0 2px 0;
+        margin: 1px 0 1px 0;
     }
   }
