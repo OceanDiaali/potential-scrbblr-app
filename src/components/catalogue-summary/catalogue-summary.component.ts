@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({
+@Component ({
   selector: 'app-catalogue-summary',
   templateUrl: './catalogue-summary.component.html',
   styleUrls: ['./catalogue-summary.component.css']

@@ -1,4 +1,4 @@
-body, html {
+/*body, html {
     height: 100%;
     margin: 0;
   }
@@ -25,4 +25,16 @@ body, html {
   hr {
     margin: auto;
     width: 40%;
+  }*/
+
+  .middle {
+    text-align: center;
+    background-image: url('./../../assets/images/sea-sky.jpg');
+    height: 190px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: rgb(250, 247, 242);
+    font-size: 24px;
+    font-weight: bold;
   }
